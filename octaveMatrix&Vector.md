@@ -44,3 +44,22 @@ div_As = A / s
 
 % What happens if we have a Matrix + scalar?
 add_As = A + s
+
+
+
+% Initialize matrix A 
+A = [1, 2, 3; 4, 5, 6;7, 8, 9] 
+
+% Initialize vector v 
+v = [1; 1; 1] 
+
+% Multiply A * v
+Av = A * v
+
+
+% DataMatrix and HYpothesisFn output
+DataMatrix = [1,2104; 1,1416; 1,1534; 1,852]
+
+HypothesisVector= [ -40; .025 ]
+
+prediction = DataMatrix * HypothesisVector
