@@ -1,6 +1,6 @@
 # Machine Learning Notes
 
-<code><img src="./ML.png" alt="" align="center" "  /></code>&nbsp;
+![Machine Learning](/ML.png)
 
 Nothing just indexing here. :)
 
