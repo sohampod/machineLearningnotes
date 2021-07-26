@@ -1,4 +1,6 @@
 # Machine Learning Notes
+
+([Neural Networks](./ML.png))
 Nothing just indexing here. :)
 
 
