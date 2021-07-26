@@ -1,6 +1,6 @@
 # Machine Learning Notes
 
-<code><img src="./ML.png" alt="" align="center" width="330x" height="330px"  /></code>&nbsp;
+<code><img src="./ML.png" alt="" align="center" "  /></code>&nbsp;
 
 Nothing just indexing here. :)
 
