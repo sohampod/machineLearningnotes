@@ -1,14 +1,15 @@
 1. Basic Operations
 
 
-    Not equal to
-        1 ~= 2
-    And
-        1 && 2
-    Or
-        1 || 2
-    Variable
-        a = pi
+Not equal to
+    1 ~= 2
+
+And
+    1 && 2
+Or
+    1 || 2
+Variable
+    a = pi
             3.1316
     Print 2 decimal places
         disp(sprintf('2 decimals: %0.2f', a))
