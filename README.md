@@ -1,6 +1,7 @@
 # Machine Learning Notes
 
-([Neural Networks](./ML.png))
+<code><img src="./ML.png" alt="" align="center" width="330x" height="330px"  /></code>&nbsp;
+
 Nothing just indexing here. :)
 
 
