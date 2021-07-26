@@ -9,45 +9,59 @@ And
 
 Or
     1 || 2
-    
+
 Variable
     a = pi
-            3.1316
-    Print 2 decimal places
-        disp(sprintf('2 decimals: %0.2f', a))
-        disp(sprintf('6 decimals: %0.6f', a))
-    Longer decimal places
-        format short
-        a
-    Matrices
-        3 x 2
-            A = [1 2; 3 4; 5 6]
-            Semicolon implies go to the next row
-        1 x 3
-            B = [1 2 3]
-        3 x 1
-            C = [1; 2; 3]
-        2 x 3 ones
-            ones(2, 3)
-            D = 2*ones(2,3)
-        1 x 3 zeros
-            zeros(1, 3)
-        1 x 3 rand
-            rand(1, 3)
-        1 x 3 Gaussian Distribution, mean = 0, SD = 1
-            randn(1, 3)
-    Start from 1, increment 0.1, up to 2
-        v = 1:0.1:2
-    Start from 1, increment 1, up to 6
-        v = 1:6
-    Histogram
-        w = -6 + sqrt(10)*(randn(1, 10))
-        hist(w)
-        50 bins
-            hist(w, 50)
-    Identity Matrix
-        eye(4)
-            4 x 4
+        3.1316
+ 
+Print 2 decimal places
+    disp(sprintf('2 decimals: %0.2f', a))
+    disp(sprintf('6 decimals: %0.6f', a))
+
+Longer decimal places
+    format short
+    a
+
+Matrices
+    3 x 2
+        A = [1 2; 3 4; 5 6]
+        Semicolon implies go to the next row
+        
+    1 x 3
+        B = [1 2 3]
+    
+    3 x 1
+        C = [1; 2; 3]
+    
+    2 x 3 ones
+        ones(2, 3)
+        D = 2*ones(2,3)
+
+    1 x 3 zeros
+        zeros(1, 3)
+
+    1 x 3 rand
+        rand(1, 3)
+
+    1 x 3 Gaussian Distribution, mean = 0, SD = 1
+        randn(1, 3)
+
+
+Start from 1, increment 0.1, up to 2
+    v = 1:0.1:2
+
+Start from 1, increment 1, up to 6
+    v = 1:6
+
+Histogram
+    w = -6 + sqrt(10)*(randn(1, 10))
+    hist(w)
+    50 bins
+        hist(w, 50)
+    
+Identity Matrix
+    eye(4)
+        4 x 4
         eye(3)
             3 x 3
     quit
