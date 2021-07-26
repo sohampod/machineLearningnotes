@@ -54,10 +54,10 @@ Start from 1, increment 1, up to 6
     v = 1:6
 
 Histogram
-    w = -6 + sqrt(10)*(randn(1, 10))
-    hist(w)
-    50 bins
-        hist(w, 50)
+w = -6 + sqrt(10)*(randn(1, 10))
+hist(w)
+50 bins
+hist(w, 50)
     
 Identity Matrix
     eye(4)
